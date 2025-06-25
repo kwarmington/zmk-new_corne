@@ -192,8 +192,6 @@
         tap-ms = <100>;
     };
 
-    combos { compatible = "zmk,combos"; };
-
     keymap {
         compatible = "zmk,keymap";
 
