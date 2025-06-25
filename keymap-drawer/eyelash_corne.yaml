@@ -196,3 +196,73 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [32, 33]
+  k: {t: ;, s: ':'}
+  l: [QWERTY]
+- p: [24, 35]
+  k: $$mdi:apple-keyboard-caps$$
+  l: [QWERTY]
+- p: [16, 15]
+  k: (
+  l: [QWERTY]
+- p: [19, 20]
+  k: )
+  l: [QWERTY]
+- p: [3, 4]
+  k: {t: '[', s: '{'}
+  l: [QWERTY]
+- p: [8, 7]
+  k: {t: ']', s: '}'}
+  l: [QWERTY]
+- p: [20, 21]
+  k: ':'
+  l: [QWERTY]
+- p: [15, 14]
+  k: {t: '`', s: '~'}
+  l: [QWERTY]
+- p: [27, 28]
+  k: '{'
+  l: [QWERTY]
+- p: [31, 32]
+  k: '}'
+  l: [QWERTY]
+- p: [2, 3]
+  k: <
+  l: [QWERTY]
+- p: [8, 9]
+  k: '>'
+  l: [QWERTY]
+- p: [28, 31]
+  k: {t: '-', s: _}
+  l: [QWERTY]
+- p: [4, 7]
+  k: +
+  l: [QWERTY]
+- p: [16, 19]
+  k: {t: '=', s: +}
+  l: [QWERTY]
+- p: [27, 26]
+  k: '|'
+  l: [QWERTY]
+- p: [3, 8]
+  k: '*'
+  l: [QWERTY]
+- p: [15, 20]
+  k: $
+  l: [QWERTY]
+- p: [27, 32]
+  k: '!'
+  l: [QWERTY]
+- p: [17, 18]
+  k: '&'
+  l: [QWERTY]
+- p: [29, 30]
+  k: _
+  l: [QWERTY]
+- p: [21, 22]
+  k: {t: \, s: '|'}
+  l: [QWERTY]
+- p: [14, 13]
+  k: '~'
+  l: [QWERTY]
