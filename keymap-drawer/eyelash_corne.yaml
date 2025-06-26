@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-return$$', h: NAV_FN}
+  - {t: '$$mdi:keyboard-space$$', h: NAV_FN}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: NUM_SYM}
+  - {t: '$$mdi:keyboard-return$$', h: NUM_SYM}
   - $$mdi:apple-keyboard-shift$$
   NAV_FN:
   - F1
