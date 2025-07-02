@@ -137,16 +137,21 @@
             layers = <0>;
         };
 
-        backslash {
+        at {
             bindings = <&kp AT>;
             key-positions = <25 26>;
             layers = <0>;
         };
 
-        tilde {
+        hash {
             bindings = <&kp HASH>;
             key-positions = <14 15>;
             layers = <0>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <16 15>;
         };
     };
 
