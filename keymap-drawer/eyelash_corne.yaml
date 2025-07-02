@@ -227,30 +227,38 @@ combos:
 - p: [32, 37]
   k: {t: '-', s: _}
   l: [QWERTY]
+  a: "top"
 - p: [4, 8]
   k: +
   l: [QWERTY]
+  a: "mid"
 - p: [17, 23]
   k: {t: '=', s: +}
   l: [QWERTY]
+  a: "mid"
 - p: [30, 31]
   k: '|'
   l: [QWERTY]
 - p: [3, 9]
   k: '*'
   l: [QWERTY]
+  a: "top"
 - p: [16, 24]
   k: $
   l: [QWERTY]
+  a: "top"
 - p: [31, 38]
   k: '!'
   l: [QWERTY]
+  a: "bottom"
 - p: [18, 22]
   k: '&'
   l: [QWERTY]
+  a: "bottom"
 - p: [33, 36]
   k: _
   l: [QWERTY]
+  a: "mid"
 - p: [25, 26]
   k: '@'
   l: [QWERTY]
