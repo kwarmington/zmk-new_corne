@@ -129,10 +129,10 @@
 
         lower_layer {
             bindings = <
-&none   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                         &none         &kp N6        &kp N7     &kp N8     &kp N9         &kp N0         &none
-&none   &kp LS(DLLR)  &kp LS(PLUS)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(AT)              &none  &none  &none  &kp LS(PIPE)  &kp MINUS  &kp EQUAL  &kp LS(UNDER)  &kp LS(STAR)   &none
-&trans  &kp LS(EXCL)  &kp POUND     &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(TILDE)  &none           &none         &kp LS(AMPS)  &kp LBKT   &kp RBKT   &kp LS(PRCNT)  &kp LS(CARET)  &none
-                                    &trans        &trans        &trans                                       &trans        &trans     &trans
+&none   &kp N1  &kp N2        &kp N3        &kp N4        &kp N5                         &none         &kp N6        &kp N7         &kp N8         &kp N9         &kp N0  &none
+&none   &none   &kp LS(STAR)  &kp LS(DLLR)  &kp LS(PLUS)  &kp LS(AT)              &none  &none  &none  &kp LS(PIPE)  &kp MINUS      &kp EQUAL      &kp LS(UNDER)  &none   &none
+&trans  &none   &none         &kp LS(EXCL)  &kp POUND     &kp LS(TILDE)  &none           &none         &kp LS(AMPS)  &kp LS(PRCNT)  &kp LS(CARET)  &none          &none   &none
+                              &trans        &trans        &trans                                       &trans        &trans         &trans
             >;
 
             label = "NUM SM";
