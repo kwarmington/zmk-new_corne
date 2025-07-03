@@ -53,12 +53,6 @@
             layers = <0>;
         };
 
-        colon {
-            bindings = <&kp COLON>;
-            key-positions = <24 25>;
-            layers = <0>;
-        };
-
         brace_left {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <32 31>;
@@ -81,77 +75,6 @@
             bindings = <&kp GREATER_THAN>;
             key-positions = <9 10>;
             layers = <0>;
-        };
-
-        hyphen {
-            bindings = <&kp MINUS>;
-            key-positions = <32 37>;
-            layers = <0>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <4 8>;
-            layers = <0>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <17 23>;
-            layers = <0>;
-        };
-
-        Pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <30 31>;
-            layers = <0>;
-        };
-
-        astrsk {
-            bindings = <&kp ASTERISK>;
-            key-positions = <3 9>;
-            layers = <0>;
-        };
-
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <16 24>;
-            layers = <0>;
-        };
-
-        excl {
-            bindings = <&kp EXCL>;
-            key-positions = <31 38>;
-            layers = <0>;
-        };
-
-        ampersand {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <18 22>;
-            layers = <0>;
-        };
-
-        underscore {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <33 36>;
-            layers = <0>;
-        };
-
-        at {
-            bindings = <&kp AT>;
-            key-positions = <25 26>;
-            layers = <0>;
-        };
-
-        hash {
-            bindings = <&kp HASH>;
-            key-positions = <14 15>;
-            layers = <0>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <16 15>;
         };
     };
 
@@ -206,13 +129,13 @@
 
         lower_layer {
             bindings = <
-&none   &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none                   &none         &kp BACKSLASH  &kp TILDE  &kp PERCENT  &kp CARET  &none  &none
-&none   &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none            &none  &none  &none  &none          &none      &none        &none      &none  &none
-&trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none   &none           &none         &none          &none      &none        &none      &none  &none
-                                    &trans        &trans        &trans                                &trans         &trans     &trans
+&none   &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                         &none         &kp N6        &kp N7     &kp N8     &kp N9         &kp N0         &none
+&none   &kp LS(DLLR)  &kp LS(PLUS)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(AT)              &none  &none  &none  &kp LS(PIPE)  &kp MINUS  &kp EQUAL  &kp LS(UNDER)  &kp LS(STAR)   &none
+&trans  &kp LS(EXCL)  &kp POUND     &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(TILDE)  &none           &none         &kp LS(AMPS)  &kp LBKT   &kp RBKT   &kp LS(PRCNT)  &kp LS(CARET)  &none
+                                    &trans        &trans        &trans                                       &trans        &trans     &trans
             >;
 
-            label = "NUM SYM";
+            label = "NUM SM";
         };
 
         kb_layer {
